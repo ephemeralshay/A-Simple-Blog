@@ -1,9 +1,13 @@
+import { useState } from "react";
+import { useHistory } from "react-router-dom";
+
 const Create = () => {
 
     //Using states to store title, body and author of newly added blogs
     const [title, setTitle] = useState('');
     const [body, setBody] = useState('');
     const [author, setAuthor] = useState('');
+    const history = useHistory();
 
     //Handles the submit funtionality
     const handleSubmit = (e) => {
