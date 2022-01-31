@@ -8,7 +8,7 @@ const BlogList = ({ blogs }) => {
                 // Each Blog Preview has a key
                 <div className="blog-preview" key={blog.id}>
                     {/* Clicking on blog preview leads to particular blog --- usage of useParams hook */}
-                    <Link to={`/blogs/${blogs.id}`}>
+                    <Link to={`/blogs/${blog.id}`}>
                         <h2>{blog.title}</h2>
                         <p> Written by {blog.author}</p>
                     </Link>

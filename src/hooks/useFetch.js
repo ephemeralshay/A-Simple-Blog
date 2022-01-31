@@ -19,7 +19,7 @@ const useFetch = (url) => {
                 .then(res => {
                     //If response is not okay, throw Error
                     if (!res.ok) {
-                        throw Error('Could not fetch the data for that resourse');
+                        throw Error('Could not fetch the data for that resource :(');
                     }
                     //If response is okay, return the response
                     return res.json();

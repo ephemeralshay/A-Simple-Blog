@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 
 /* base styles */
 * {
   margin: 0;
-  font-family: "Quicksand";
+  font-family: "Rubik", sans-serif;
   color: #333;
 }
 .navbar {
@@ -13,9 +13,10 @@
   max-width: 600px;
   margin: 0 auto;
   border-bottom: 1px solid #f2f2f2;
+  background-color: #fff9e3;
 }
 .navbar h1 {
-  color: #f1356d;
+  color: #00356b;
 }
 .navbar .links {
   margin-left: auto;
@@ -26,11 +27,12 @@
   padding: 6px;
 }
 .navbar a:hover {
-  color: #f1356d;
+  color: #00356b;
 }
 .content {
   max-width: 600px;
   margin: 40px auto;
+  background-color: #fff9e3;
   padding: 20px;
 }
 
@@ -45,7 +47,7 @@
 }
 .blog-preview h2 {
   font-size: 20px;
-  color: #f1356d;
+  color: #00356b;
   margin-bottom: 8px;
 }
 .blog-preview a {
@@ -55,14 +57,14 @@
 /* blog details page */
 .blog-details h2 {
   font-size: 20px;
-  color: #f1356d;
+  color: #00356b;
   margin-bottom: 10px;
 }
 .blog-details div {
   margin: 20px 0;
 }
 .blog-details button {
-  background: #f1356d;
+  background: #00356b;
   color: #fff;
   border: 0;
   padding: 8px;
@@ -82,7 +84,7 @@
 }
 .create h2 {
   font-size: 20px;
-  color: #f1356d;
+  color: #00356b;
   margin-bottom: 30px;
 }
 .create input,
@@ -96,7 +98,7 @@
   display: block;
 }
 .create button {
-  background: #f1356d;
+  background: #00356b;
   color: #fff;
   border: 0;
   padding: 8px;
@@ -107,7 +109,7 @@
 /* not found page */
 .not-found h2 {
   font-size: 20px;
-  color: #f1356d;
+  color: #00356b;
   margin-bottom: 10px;
 }
 
@@ -116,7 +118,11 @@
 }
 
 .not-found a {
-  margin-left: 16px;
+  background: #00356b;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
   text-decoration: none;
-  padding: 6px;
 }
