@@ -9,7 +9,7 @@ const Create = () => {
     const [author, setAuthor] = useState('');
     const history = useHistory();
 
-    //Handles the submit funtionality
+    //Handles the submit functionality
     const handleSubmit = (e) => {
         //Avoids auto-refresh of the page 
         e.preventDefault();
